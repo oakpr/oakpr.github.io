@@ -39,7 +39,7 @@ fn main() {
 Tabs are important because they allow your peers to determine which indentation width is best for them. This document is currently using <input type="number" id="twid_demo" value="4" size=1>ch tabs. You can use that selector to change how tabs are rendered on this page, if you have JavaScript enabled.
 
 <script>
-document.querySelector("#twid_demo").addEventListener("change", event => {
+document.querySelector("#twid_demo").addEventListener("input", event => {
 	document.querySelector(":root").style.setProperty("--twid", `${event.target.value}ch`);
 })
 </script>
