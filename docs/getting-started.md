@@ -80,7 +80,7 @@ git config --global user.name "John Smith"
 
 ## Linux
 
-* Different Linux systems use different package managers. You should follow the instructions on https://code.visualstudio.com/docs/setup/linux which correspond to your distribution when installing [[VSCode]].
+* Different Linux systems use different package managers. You should follow the instructions on https://code.visualstudio.com/docs/setup/linux which correspond to your distribution when installing VSCode.
 * Install git as would be typical for your system. For example, `sudo apt install git`, `sudo dnf in git`, `sudo pacman -S git`, `sudo zypper in git`.
 * To install NodeJS, copy the commands below.
 ```bash
@@ -111,7 +111,7 @@ git config --global user.name "John Smith"
 * Git, the program we installed earlier, is a tool that's designed to help with working on a project with many people. It's able to synchronize multiple copies of the same codebase, and resolve simultaneous changes (mostly) gracefully.
 * In theory, you could synchronize a Git repository by passing USB sticks around, but it's best to have a server that keeps a canonical version of the repository for you and your peers to sync with.
 * GitHub is a subsidiary of Microsoft, and by far the most popular place to store your code.
-* You need to sign[[bestpractices]] https://github.com/signup to contribute to club projects.
+* You need to sign up with GitHub at https://github.com/signup to contribute to club projects.
 * After signing up with GitHub, DM the username you chose to one of us on Discord, and we'll invite you to the club organization. Please accept the invite as soon as you receive it, since it will expire after a while.
 
 # Best Practices
