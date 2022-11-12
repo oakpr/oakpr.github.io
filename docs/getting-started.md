@@ -24,9 +24,9 @@ Use the subheading which applies to your system.
 ## Windows Before 10
 
 * For Windows versions before Windows 10, `winget` is not available, so you will have to install VSCode, Git and NodeJS manually.
-* To install VSCode, visit https://code.visualstudio.com/Download or use [this link](https://code.visualstudio.com/sha/download?build=stable&os=win32-user) to download the installer directly, then follow the onscreen instructions.
-* To install NodeJS, visit https://nodejs.org/en/download/ or use [this link](https://nodejs.org/dist/v18.12.1/node-v18.12.1-x86.msi) to download the installer directly, then follow the onscreen instructions.
-* To install Git, visit https://gitforwindows.org/ or use [this link](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) to download the installer directly, then follow the onscreen instructions. Select Visual Studio Code as the default text editor when prompted, and set the default branch name to 'main'.
+* To install VSCode, visit [the official install page](https://code.visualstudio.com/Download) or use [this link](https://code.visualstudio.com/sha/download?build=stable&os=win32-user) to download the installer directly, then follow the onscreen instructions.
+* To install NodeJS, visit [the official install page](https://nodejs.org/en/download/) or use [this link](https://nodejs.org/dist/v18.12.1/node-v18.12.1-x86.msi) to download the installer directly, then follow the onscreen instructions.
+* To install Git, visit [the official install page](https://gitforwindows.org/) or use [this link](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) to download the installer directly, then follow the onscreen instructions. Select Visual Studio Code as the default text editor when prompted, and set the default branch name to 'main'.
 * Open the Windows Command Prompt by pressing the Windows key and typing "cmd" into the search field. Select the Command Prompt from the results.
 * Type the text below into your command prompt and press enter to run it. Read it beforehand; you should never run commands without having some understanding of what they do.
 ```bat
@@ -80,7 +80,7 @@ git config --global user.name "John Smith"
 
 ## Linux
 
-* Different Linux systems use different package managers. You should follow the instructions on https://code.visualstudio.com/docs/setup/linux which correspond to your distribution when installing VSCode.
+* Different Linux systems use different package managers. You should follow the instructions on [the official setup page](https://code.visualstudio.com/docs/setup/linux) which correspond to your distribution when installing VSCode.
 * Install git as would be typical for your system. For example, `sudo apt install git`, `sudo dnf in git`, `sudo pacman -S git`, `sudo zypper in git`.
 * To install NodeJS, copy the commands below.
 ```bash
@@ -111,7 +111,7 @@ git config --global user.name "John Smith"
 * Git, the program we installed earlier, is a tool that's designed to help with working on a project with many people. It's able to synchronize multiple copies of the same codebase, and resolve simultaneous changes (mostly) gracefully.
 * In theory, you could synchronize a Git repository by passing USB sticks around, but it's best to have a server that keeps a canonical version of the repository for you and your peers to sync with.
 * GitHub is a subsidiary of Microsoft, and by far the most popular place to store your code.
-* You need to sign up with GitHub at https://github.com/signup to contribute to club projects.
+* You need to [sign up with GitHub](https://github.com/signup) to contribute to club projects.
 * After signing up with GitHub, DM the username you chose to one of us on Discord, and we'll invite you to the club organization. Please accept the invite as soon as you receive it, since it will expire after a while.
 
 # Best Practices
