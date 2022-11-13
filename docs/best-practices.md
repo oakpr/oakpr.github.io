@@ -8,6 +8,7 @@ This document contains information about programming best practices. The code sn
 - [Indentation](#indentation)
 - [Comments](#comments)
 - [Test, Test, Test!](#test-test-test)
+- [Never Trust the Client](#never-trust-the-client)
 
 ## Indentation
 
@@ -111,3 +112,11 @@ fn test_big_thing() {
 	assert_eq!(deep_thought.find_question(), Err(your_library::Error::VogonBypass));
 }
 ```
+
+You likely already have experience with test-driven development if you've taken an online programming class, where your teacher will have set up a set of checks that your code has to pass. The only difference between that and real test-driven development is that you write both the tests and the code that fulfills them.
+
+## Never Trust the Client
+
+Assume that everything coming over the network is malicious, and that every little facet of your program's logic is being scrutinized by evil people much more skilled than you, and you'll be paranoid enough to write a decently secure network service.
+
+It might be tempting to assume that if it's *your* software running on someone else's computer, you're safe from tampering, but you have no way of guaranteeing that the computer you're talking to is running the instructions you want it to. There have been many attempts to force clients to tell the truth for media DRM or video game anti-cheat, but fundamentally, the user has physical access to their computer, which means they can access everything it knows, and they can force it to lie to you.
