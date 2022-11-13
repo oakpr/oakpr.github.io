@@ -164,7 +164,7 @@ You might be able to deduplicate code by writing generic functions, moving repea
 
 *But it wasn't a duck, it was* `[0]`.
 
-Languages like Javascript are "dynamically typed languages". They still have a type system, of course, but they do their best to keep it out of your way. Unfortunately, things which linger out of sight often also fall out of mind, which means that dynamic type systems are usually [unpredictable](https://medium.com/intrinsic-blog/javascript-prototype-poisoning-vulnerabilities-in-the-wild-7bc15347c96), [extremely inconsistent](https://dorey.github.io/JavaScript-Equality-Table/), and [generally awful](https://jscrew.it/). Not having to think about a type system can make writing code easier, but the resultant program can be nearly illegible without an IDE to help you decipher it.
+Languages like Javascript are "dynamically typed languages". They still have a type system, of course, but they do their best to keep it out of your way. Unfortunately, things which linger out of sight often also fall out of mind, which means that dynamic type systems are usually [unpredictable](https://medium.com/intrinsic-blog/javascript-prototype-poisoning-vulnerabilities-in-the-wild-7bc15347c96), [extremely inconsistent](https://dorey.github.io/JavaScript-Equality-Table/), and [generally awful](https://jscrew.it/). Not having to think about a type system can make writing code easier, but the resultant program can be difficult to read without an IDE to help you decipher it.
 
 Ideally, production code should be written in a strongly-typed language, to ensure that your colleagues will still be able to read it a decade down the line.
 
