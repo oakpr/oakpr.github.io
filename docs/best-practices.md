@@ -5,6 +5,8 @@ layout: home
 
 This document contains information about programming best practices that might help you avoid footguns in the future. The code snippets in this file are in Rust for legibility, but they are simple enough for beginners, and should apply to any language with the covered functionality.
 
+None of the tips in this document are hard-and-fast rules!!! Use your discretion to decide when to follow them. Besides, I'm not your boss, I can't tell you how to do your job.
+
 (This document is a draft, and the opinions therein are those of the author only.)
 
 - [Indentation](#indentation)
