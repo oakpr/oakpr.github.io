@@ -231,4 +231,6 @@ fn do_the_thing(state: State) -> ... {
 }
 ```
 
-When using an enum, many compilers will also check to make sure you actually handled every valid state, instead of leaving it up to you. Unfortunately, JavaScript doesn't have support for this, but TypeScript does.
+When using an enum, many compilers will also check to make sure you actually handled every valid state, instead of leaving it up to you.
+
+Unfortunately, JavaScript doesn't have support for enums, but TypeScript does.
