@@ -4,3 +4,5 @@ theme: just-the-docs
 
 url: https://oakpr.github.io
 color_scheme: dark
+exclude:
+  - test
