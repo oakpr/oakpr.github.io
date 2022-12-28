@@ -2,6 +2,7 @@
 title: Writing Code Examples
 parent: Programming Languages
 layout: home
+nav_order: -1
 ---
 
 The script in the root of this repository implements automatic documentation checks. Checks are currently only available for Rust and NodeJS, but support for other languages or runtimes can be added. Currently, checks are not run by Github Actions before publishing the page, but this will be the case in the future. Files with code examples must use the file extension `.code.md` to be checked.

@@ -6,3 +6,11 @@ url: https://oakpr.github.io
 color_scheme: dark
 exclude:
   - test
+
+callouts:
+  note:
+    title: Note
+    color: grey-lt
+  warning:
+    title: Warning
+    color: yellow
